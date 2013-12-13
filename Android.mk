@@ -10,8 +10,8 @@ LOCAL_STATIC_JAVA_LIBRARIES += xmp_toolkit
 LOCAL_STATIC_JAVA_LIBRARIES += mp4parser
 LOCAL_STATIC_JAVA_LIBRARIES += android-support-v8-renderscript
 
-LOCAL_RENDERSCRIPT_TARGET_API := 18
-LOCAL_RENDERSCRIPT_COMPATIBILITY := 18
+LOCAL_RENDERSCRIPT_TARGET_API := 19
+LOCAL_RENDERSCRIPT_COMPATIBILITY := 19
 LOCAL_RENDERSCRIPT_FLAGS := -rs-package-name=android.support.v8.renderscript
 
 # Keep track of previously compiled RS files too (from bundled GalleryGoogle).
